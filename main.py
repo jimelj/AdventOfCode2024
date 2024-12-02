@@ -15,7 +15,7 @@ def read_data(file_path):
     return left_list, right_list
 
 # Define the path to the input file
-file_path = Path("input/input.txt")
+file_path = Path("input/example.txt")
 
 # Read sample data from the txt file
 left_list, right_list = read_data(file_path)
